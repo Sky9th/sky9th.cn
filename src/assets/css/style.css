@@ -18,3 +18,4 @@
 .welcome-title { margin-top:50px }
 
 .github { margin-top: 10vh }
+.github .intro { max-width: 66.6%;margin: 0 auto;margin-bottom:1vh }

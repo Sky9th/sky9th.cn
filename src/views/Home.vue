@@ -17,14 +17,14 @@
         <div class="github">
 
           <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
-            <h3 class="mb-4">SkyAdminVue —— 前端</h3>
-            <p>SkyAdmin是使用基于D2Admin开发的内容管理系统前端框架，使用vue-cli3构建，具备基本的RBAC管理功能，集成 element-UI, Fontawesome等多种常用库，助力敏捷开发</p>
+            <h3 class="mb-4"><a href="https://github.com/Sky9th/sky-admin-api">SkyAdminVue —— 前端</a></h3>
+            <p class="intro">SkyAdmin是使用基于D2Admin开发的内容管理系统前端框架，使用vue-cli3构建，具备基本的RBAC管理功能，集成 element-UI, Fontawesome等多种常用库，助力敏捷开发</p>
             <p><img v-for="(item, index) in vueGithub" :alt="item.split(',')[0]" :src="item.split(',')[1]" :key="index"></p>
           </div>
 
           <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
-            <h3 class="mb-4">SkyAdminApi —— 后端</h3>
-            <p>SkyAdmin是使用基于ThinkPHP6.0开发的后端接口支撑框架，采用Mysql数据库，集成EasyWechatSDK，支持微信、小程序对接。完全RestFul接口，具备基本的接口加密技术，助力敏捷开发</p>
+            <h3 class="mb-4"><a href="https://github.com/Sky9th/sky-admin-vue">SkyAdminApi —— 后端</a></h3>
+            <p class="intro">SkyAdmin是使用基于ThinkPHP6.0开发的后端接口支撑框架，采用Mysql数据库，集成EasyWechatSDK，支持微信、小程序对接。完全RestFul接口，具备基本的接口加密技术，助力敏捷开发</p>
             <p><img v-for="(item, index) in apiGithub" :alt="item.split(',')[0]" :src="item.split(',')[1]" :key="index"></p>
           </div>
 
