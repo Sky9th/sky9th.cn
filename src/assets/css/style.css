@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'txccyj';
+    src: url('../font/txxcyj.eot');
+    src:
+            url('../font/txxcyj.eot?#font-spider') format('embedded-opentype'),
+            url('../font/txxcyj.woff2') format('woff2'),
+            url('../font/txxcyj.woff') format('woff'),
+            url('../font/txxcyj.ttf') format('truetype'),
+            url('../font/txxcyj.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.shard { width: auto;top:120px }
+
+.welcome { height: 110vh }
+.welcome h1 { font-family:'txccyj';margin-top:44vh }
+.welcome-title { margin-top:50px }
+
+.github { margin-top: 10vh }
